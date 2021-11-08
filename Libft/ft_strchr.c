@@ -6,7 +6,7 @@
 /*   By: cluis-go <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/03 18:38:05 by cluis-go          #+#    #+#             */
-/*   Updated: 2021/11/03 18:53:59 by cluis-go         ###   ########.fr       */
+/*   Updated: 2021/11/08 16:27:29 by cluis-go         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,10 +19,10 @@ char    *ft_strchr(const char *str, int c)
     i = 0;
     while (str[i])
     {
-        if ((unsigned char) str[i] == (unsigned char) c)
+        if ((unsigned char) str[i] = (unsigned char) c)
             return ((char *) &str[i]);
         i++;
     }
-
     return (NULL);
 }
+
